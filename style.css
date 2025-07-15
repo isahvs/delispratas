@@ -1,0 +1,178 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+header {
+  background-color: #d1a9e3;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+header small {
+  display: block;
+  font-size: 0.8rem;
+  color: #6e6e6e;
+}
+
+.btn {
+  background-color: #eee;
+  padding: 6px 14px;
+  border-radius: 15px;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+main {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Página Inicial */
+.subtitulo {
+  margin-top: 30;
+}
+
+.peças {
+  
+}
+.produtos-mais-vendidos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.produtos-mais-vendidos img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.outras-peças {
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.outras-peças img {
+ width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px; 
+}
+
+/* Login */
+.login-box {
+  background-color: #d1a9e3;
+  border-radius: 25px;
+  padding: 30px 20px;
+  margin: 40px auto;
+  text-align: center;
+  width: 90%;
+  max-width: 300px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* Carrinho */
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.item-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  margin: 15px 0;
+  background: #eee;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+.search-bar input {
+  border: none;
+  flex: 1;
+  background: transparent;
+}
+
+.comprar {
+  width: 100%;
+  background-color: #9f6ab6;
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#butao-entrar {
+  background-color: #6b3e80;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
