@@ -55,17 +55,17 @@ main {
 
 /* Página Inicial */
 .subtitulo {
-  margin-top: 30;
+  margin-top: 20;
 }
 
 .peças {
-  
+  margin-top: 30px;
 }
 .produtos-mais-vendidos {
   display: flex;
   overflow-x: auto;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .produtos-mais-vendidos img {
@@ -73,20 +73,22 @@ main {
   height: 120px;
   object-fit: cover;
   border-radius: 12px;
+  margin-top: 20px;
 }
 
 .outras-peças {
   display: flex;
   overflow: auto;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .outras-peças img {
- width: 120px;
+  width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 12px; 
+  border-radius: 12px;
+  margin-top: 20px; 
 }
 
 /* Login */
@@ -107,6 +109,29 @@ main {
   border: none;
   border-radius: 20px;
   font-size: 1rem;
+}
+
+.login-box button{
+  background-color: #6f6674;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Formulario */
+.formulario-box button{
+  background-color: #6f6772;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  width: 50%;
+  max-width: 300px;
 }
 
 /* Carrinho */
@@ -156,17 +181,17 @@ main {
   background: transparent;
 }
 
-.comprar {
+.carrinho-box button {
+  background-color: #6f5a79;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px auto;
   width: 100%;
-  background-color: #9f6ab6;
-  color: white;
-  padding: 15px;
-  font-size: 1rem;
-  text-align: center;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #butao-entrar {
