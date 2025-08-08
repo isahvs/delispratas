@@ -20,13 +20,20 @@
       <h2>Para realçar seu brilho interior</h2>
       <p>Para melhor uso do site, faça login ou crie sua conta</p>
 
-      <div class="login-box">
-        <input type="text" placeholder="Nome de usuário">
-        <input type="password" placeholder="Senha">
+      <form id="login-form" class="login-box">
+        <input type="text" placeholder="Nome de usuário" id="login-username" name="username">
+        <p id="username-error" class="helper-text"></p>
+
+        <input type="password" placeholder="Senha" id="login-password" name="password">
+        <p id="password-error" class="helper-text"></p>
+
         <button type="submit">fazer login</button>
-        <p>Não tem uma conta? <a rel="stylesheet" href="formulario.html">Criar conta</a></p>
-      </div>
+
+        <p>Não tem uma conta? <a href="formulario.html">Criar conta</a></p>
+      </form>
     </main>
   </div>
+
+  <script src="login.js"></script>
 </body>
 </html>

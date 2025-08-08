@@ -20,26 +20,28 @@
       <h2>Para realçar seu brilho interior</h2>
       <p>Não tem uma conta ainda? Crie a sua para uma melhor experiência em nosso site</p>
 
-      <div class="login-box">
+      <form id="formulario" class="login-box">
         <label for="username">Nome de usuário</label>
         <input type="text" placeholder="usuário" id="username" name="username">
         <p id="username-helper" class="helper-text"></p>
 
         <label for="email">Seu E-mail</label>
         <input type="email" placeholder="email" id="email" name="email">
-        <p id="email-helper"></p>
+        <p id="email-helper" class="helper-text"></p>
 
         <label for="password">Sua senha</label>
         <input type="password" placeholder="senha" id="password" name="password">
-        <p id="password-helper"></p>
+        <p id="password-helper" class="helper-text"></p>
 
-        <label for="password">Confirmar senha</label>
-        <input type="password" placeholder="confirmar senha" id="password" name="password">
-        <p id="password-helper"></p>
+        <label for="confirm-password">Confirmar senha</label>
+        <input type="password" placeholder="confirmar senha" id="confirm-password" name="confirm-password">
+        <p id="confirm-password-helper" class="helper-text"></p>
 
         <button type="submit">criar conta</button>
-      </div>
+      </form>
     </main>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
